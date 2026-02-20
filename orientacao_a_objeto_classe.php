@@ -20,6 +20,7 @@
         public function acelerar(){
             $this -> velocidade >=10;
             echo "o carro acelerou. a velocidade e igua: ". $this-> velocidade . "km/h";
+        }
     // metodos segundo
         public function frear(){
             if($this->velocidade >=10){
@@ -29,6 +30,7 @@
     
         
     }
+        }
     
 
     ?>
